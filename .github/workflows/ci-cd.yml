@@ -44,4 +44,4 @@ jobs:
           passphrase: ${{ secrets.VPS_SSH_PASSPHRASE }}
           script: |
             docker pull hoang24/workflows-be:latest
-            echo "Pulled frontend image successfully"
+            echo "Pulled backend image successfully"
