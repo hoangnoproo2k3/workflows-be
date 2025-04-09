@@ -43,4 +43,5 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
           passphrase: ${{ secrets.VPS_SSH_PASSPHRASE }}
           script: |
-            echo "Connected to VPS successfully"
+            docker pull hoang24/workflows-be:latest
+            echo "Pulled frontend image successfully"
